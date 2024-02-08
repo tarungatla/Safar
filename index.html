@@ -9,6 +9,10 @@
 </head>
 <body>
     <header>
+        <div id="menu-bar" class="fas fa-bars">
+            
+        </div>
+
         <a href="#" class="logo">
             <span>S</span>afar
         </a>
@@ -33,6 +37,20 @@
             <label for="search-bar" class="fas fa-search"></label>
         </form>
     </header>
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="Login" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>Forget password? <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#">Register now</a></p>
+        </form>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
