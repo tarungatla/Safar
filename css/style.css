@@ -425,6 +425,60 @@ header .search-bar-container label:hover{
     padding: .5rem 0;
 }
 
+.review .review-slider{
+    padding-bottom: 2rem;
+}
+
+.review .box{
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.review .box img{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.review .box h3{
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.review .box p{
+    font-size: 1.5rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+.review .box .stars i{
+    font-size: 1.7rem;
+    color: var(--orange);
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: center;
+}
+
+.contact .row .image{
+    flex: 1 1 35rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row .form{
+    flex: 1 1 50rem;
+    padding:2rem;
+}
 body{
     height: 300rem;
 }
