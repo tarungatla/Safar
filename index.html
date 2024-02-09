@@ -1,174 +1,238 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Safar</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <div id="menu-bar" class="fas fa-bars">
+      <div id="menu-bar" class="fas fa-bars"></div>
 
-        </div>
+      <a href="#" class="logo"> <span>S</span>afar </a>
 
-        <a href="#" class="logo">
-            <span>S</span>afar
-        </a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#favourites">Favourites</a>
+        <a href="#packages">Discover</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="">About</a>
+      </nav>
 
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#favourites">Favourites</a>
-            <a href="#packages">Packages</a>
-            <a href="#services">Services</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#review">Review</a>
-            <a href="#contact">Contact</a>
-            <a href="">About</a>
-        </nav>
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
 
-        <div class="icons">
-            <i class="fas fa-search" id="search-btn"></i>
-            <i class="fas fa-user" id="login-btn"></i>
-        </div>
-
-        <form action="" class="search-bar-container">
-            <input type="search" id="search-bar" placeholder="search here...">
-            <label for="search-bar" class="fas fa-search"></label>
-        </form>
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
     </header>
 
     <div class="login-form-container">
-        <i class="fas fa-times" id="form-close"></i>
-        <form action="">
-            <h3>Login</h3>
-            <input type="email" class="box" placeholder="Enter your email">
-            <input type="password" class="box" placeholder="Enter your password">
-            <input type="submit" value="Login" class="btn">
-            <input type="checkbox" id="remember">
-            <label for="remember">Remember me</label>
-            <p>Forget password? <a href="#">Click here</a></p>
-            <p>Don't have an account? <a href="#">Register now</a></p>
-        </form>
+      <i class="fas fa-times" id="form-close"></i>
+      <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="Enter your email" />
+        <input type="password" class="box" placeholder="Enter your password" />
+        <input type="submit" value="Login" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">Remember me</label>
+        <p>Forget password? <a href="#">Click here</a></p>
+        <p>Don't have an account? <a href="#">Register now</a></p>
+      </form>
     </div>
 
     <!-- home section -->
     <section class="home" id="home">
-        <div class="content">
-            <h3>Travel with us</h3>
-            <p>Travel with us and get the best experience</p>
-            <a href="#" class="btn">Get started</a>
-        </div>
+      <div class="content">
+        <h3>Travel with us</h3>
+        <p>Travel with us and get the best experience</p>
+        <a href="#" class="btn">Get started</a>
+      </div>
 
-        <div class="controls">
-            <span class="vid-btn active" data-src="images/bg_video.mp4"></span>
-            <span class="vid-btn" data-src="images/bg_video.mp4"></span>
-            <span class="vid-btn" data-src="images/bg_video.mp4"></span>
-            <span class="vid-btn" data-src="images/bg_video.mp4"></span>
-            <span class="vid-btn" data-src="images/bg_video.mp4"></span>
-        </div>
+      <div class="controls">
+        <span class="vid-btn active" data-src="images/bg_video.mp4"></span>
+        <span class="vid-btn" data-src="images/bg_video.mp4"></span>
+        <span class="vid-btn" data-src="images/bg_video.mp4"></span>
+        <span class="vid-btn" data-src="images/bg_video.mp4"></span>
+        <span class="vid-btn" data-src="images/bg_video.mp4"></span>
+      </div>
 
-        <div class="video-container">
-            <video src="images/bg_video.mp4" id="video-slider" loop autoplay muted>
-            </video>
-        </div>
+      <div class="video-container">
+        <video
+          src="images/bg_video.mp4"
+          id="video-slider"
+          loop
+          autoplay
+          muted
+        ></video>
+      </div>
     </section>
 
     <!-- packages section -->
     <section class="packages" id="packages">
-        <h1 class="heading">
-            <span>D</span>
-            <span>i</span>
-            <span>s</span>
-            <span>c</span>
-            <span>o</span>
-            <span>v</span>
-            <span>e</span>
-            <span>r</span>
-        </h1>
+      <h1 class="heading">
+        <span>D</span>
+        <span>i</span>
+        <span>s</span>
+        <span>c</span>
+        <span>o</span>
+        <span>v</span>
+        <span>e</span>
+        <span>r</span>
+      </h1>
 
-        <div class="box-container">
+      <div class="swiper review-slider box-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
             <div class="box">
-                <img src="images/taj.png" alt="" >
-                <div class="content">
-                    <h3><i class="fas fa-map-marker-alt"></i>Taj Mahal</h3>
-                    <p>The Taj Mahal is a majestic white marble mausoleum built by Mughal Emperor Shah Jahan in memory of his wife, Mumtaz Mahal. It is renowned globally as an epitome of love and is one of the Seven Wonders of the World. This architectural masterpiece, set on the banks of the Yamuna River, attracts millions of tourists every year.</p>
-                </div>
+              <img src="images/taj.png" alt="" />
+              <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Taj Mahal</h3>
+                <p>
+                  The Taj Mahal is a majestic white marble mausoleum built by
+                  Mughal Emperor Shah Jahan in memory of his wife, Mumtaz Mahal.
+                  It is renowned globally as an epitome of love and is one of
+                  the Seven Wonders of the World. This architectural
+                  masterpiece, set on the banks of the Yamuna River, attracts
+                  millions of tourists every year.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+          <div class="box">
+            <img src="images/golden_temple.jpg" alt="" />
+            <div class="content">
+              <h3><i class="fas fa-map-marker-alt"></i>Golden Temple</h3>
+              <p>
+                The Golden Temple, also known as Sri Harmandir Sahib, is a
+                prominent Sikh Gurdwara located in Amritsar, Punjab, India.
+                Revered as the holiest shrine in Sikhism, the temple is a symbol
+                of both spiritual and historical significance for Sikhs
+                worldwide. Its stunning architecture, with the central shrine
+                covered in gold, is surrounded by a large serene lake, adding to
+                its ethereal beauty.
+              </p>
+            </div>
+          </div>
+          </div>
+
+          <div class="swiper-slide">
+          <div class="box">
+            <img src="images/ajanta.jpg" alt="" />
+            <div class="content">
+              <h3>
+                <i class="fas fa-map-marker-alt"></i>Ajanta and Ellora Caves
+              </h3>
+              <p>
+                Ajanta and Ellora caves are among the major attractions in the
+                state of Maharashtra. These ancient caves are considered to be
+                one of the most important monuments of India owing to the
+                magnificent paintings of Ajanta and well-carved sculptures of
+                Ellora. The rock-cut caves containing carvings are the finest
+                example of Indian paintings and sculpture.
+              </p>
+            </div>
+          </div>
+          </div>
+
+          <div class="swiper-slide">
+          <div class="box">
+            <img src="images/hawa_mahal.jpg" alt="" />
+            <div class="content">
+              <h3><i class="fas fa-map-marker-alt"></i>Hawa Mahal</h3>
+              <p>
+                The Hawa Mahal stands at the intersection of the main road in
+                Jaipur, Badi Chaupad. It is regarded as the signature building
+                of Jaipur and was built by Maharaja Sawai Pratap Singh.
+                Considered as one of the most important and culturally rich
+                historical monuments in India, Hawa Mahal stands testimony to
+                the rich Rajputana architecture.
+              </p>
+            </div>
+          </div>
             </div>
 
-            <div class="box">
-                <img src="images/golden_temple.jpg" alt="" >
-                <div class="content">
-                    <h3><i class="fas fa-map-marker-alt"></i>Golden Temple</h3>
-                    <p>The Golden Temple, also known as Sri Harmandir Sahib, is a prominent Sikh Gurdwara located in Amritsar, Punjab, India. Revered as the holiest shrine in Sikhism, the temple is a symbol of both spiritual and historical significance for Sikhs worldwide. Its stunning architecture, with the central shrine covered in gold, is surrounded by a large serene lake, adding to its ethereal beauty.</p>
-                </div>
+          <div class="swiper-slide">
+          <div class="box">
+            <img src="images/qutab_minar.jpg" alt="" />
+            <div class="content">
+              <h3><i class="fas fa-map-marker-alt"></i>Qutab Minar</h3>
+              <p>
+                Qutub Minar is a UNESCO World Heritage site and the tallest
+                brick minaret in the world, standing at a height of 72.5 meters.
+                Located in Delhi, this historical monument boasts intricate
+                carvings and scriptures, representing the architectural
+                brilliance of the Mughal era. It's surrounded by several other
+                historical structures, collectively known as the Qutub complex.
+              </p>
             </div>
-            <div class="box">
-                <img src="images/ajanta.jpg" alt="" >
-                <div class="content">
-                    <h3><i class="fas fa-map-marker-alt"></i>Ajanta and Ellora Caves</h3>
-                    <p>Ajanta and Ellora caves are among the major attractions in the state of Maharashtra. These ancient caves are considered to be one of the most important monuments of India owing to the magnificent paintings of Ajanta and well-carved sculptures of Ellora. The rock-cut caves containing carvings are the finest example of Indian paintings and sculpture.</p>
-                </div>
-            </div>
-
-
-            <div class="box">
-                <img src="images/hawa_mahal.jpg" alt="" >
-                <div class="content">
-                    <h3><i class="fas fa-map-marker-alt"></i>Hawa Mahal</h3>
-                    <p>The Hawa Mahal stands at the intersection of the main road in Jaipur, Badi Chaupad. It is regarded as the signature building of Jaipur and was built by Maharaja Sawai Pratap Singh. Considered as one of the most important and culturally rich historical monuments in India, Hawa Mahal stands testimony to the rich Rajputana architecture.</p>
-                </div>
+          </div>
             </div>
 
-            <div class="box">
-                <img src="images/qutab_minar.jpg" alt="" >
-                <div class="content">
-                    <h3><i class="fas fa-map-marker-alt"></i>Qutab Minar</h3>
-                    <p>Qutub Minar is a UNESCO World Heritage site and the tallest brick minaret in the world, standing at a height of 72.5 meters. Located in Delhi, this historical monument boasts intricate carvings and scriptures, representing the architectural brilliance of the Mughal era. It's surrounded by several other historical structures, collectively known as the Qutub complex.</p>
-                </div>
+          <div class="swiper-slide">
+          <div class="box">
+            <img src="images/red_fort.jpg" alt="" />
+            <div class="content">
+              <h3><i class="fas fa-map-marker-alt"></i>Red Fort</h3>
+              <p>
+                Also known as Lal Qila, Fort Rouge or Red Fort of Agra, the Agra
+                Fort is a UNESCO world heritage site. It is situated at a
+                distance of about 2.5 km north-west of the famous Taj Mahal. The
+                construction of the massive fort of red sandstone by the banks
+                of Yamuna river was started by emperor Akbar.
+              </p>
             </div>
+          </div>
+          </div>
 
 
 
-            <div class="box">
-                <img src="images/red_fort.jpg" alt="" >
-                <div class="content">
-                    <h3><i class="fas fa-map-marker-alt"></i>Red Fort</h3>
-                    <p>Also known as Lal Qila, Fort Rouge or Red Fort of Agra, the Agra Fort is a UNESCO world heritage site. It is situated at a distance of about 2.5 km north-west of the famous Taj Mahal. The construction of the massive fort of red sandstone by the banks of Yamuna river was started by emperor Akbar.</p>
-                </div>
-            </div>
         </div>
+      </div>
     </section>
 
     <!-- Services section -->
 
     <section class="services" id="services">
-        <h1 class="heading">
-            <span>S</span>
-            <span>e</span>
-            <span>r</span>
-            <span>v</span>
-            <span>i</span>
-            <span>c</span>
-            <span>e</span>
-            <span>s</span>
-        </h1>
+      <h1 class="heading">
+        <span>S</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
 
-        <div class="box-container">
-            <div class="box">
-                <i class="fas fa-map-marker"></i>
-                <h3>Location</h3>
-                <p>Find locations of the monuments</p>
-            </div>
-            
-            <div class="box">
-                <i class="fas fa-landmark"></i>
-                <h3>Artifacts</h3>
-                <p>Discover the unique artifacts</p>
-            </div>
-            <!-- <div class="box">
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-map-marker"></i>
+          <h3>Location</h3>
+          <p>Find locations of the monuments</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-landmark"></i>
+          <h3>Artifacts</h3>
+          <p>Discover the unique artifacts</p>
+        </div>
+        <!-- <div class="box">
                 <i class="fas fa-hotel"></i>
                 <h3>Hotel</h3>
                 <p>Get the best hotel for your stay</p>
@@ -203,187 +267,295 @@
                 <h3>Adventures</h3>
                 <p>Get the best adventure experience</p>
             </div> -->
-
-        </div>
+      </div>
     </section>
 
     <!-- gallery section -->
 
     <section class="gallery" id="gallery">
-        <h1 class="heading">
-            <span>G</span>
-            <span>a</span>
-            <span>l</span>
-            <span>l</span>
-            <span>e</span>
-            <span>r</span>
-            <span>y</span>
-        </h1>
+      <h1 class="heading">
+        <span>G</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+      </h1>
 
-        <div class="box-container">
-            <div class="box">
-                <img src="images/g-1.jpg" alt="">
-                <div class="content">
-                    <h3>Amazing places</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore quis illo accusantium dignissimos tenetur fugiat rerum modi, earum molestiae excepturi deleniti rem vero dolorum laudantium nam quibusdam sit corporis!</p>
-                    <a href="#" class="btn">See More</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="images/g-2.jpg" alt="">
-                <div class="content">
-                    <h3>Amazing places</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore quis illo accusantium dignissimos tenetur fugiat rerum modi, earum molestiae excepturi deleniti rem vero dolorum laudantium nam quibusdam sit corporis!</p>
-                    <a href="#" class="btn">See More</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="images/g-3.jpg" alt="">
-                <div class="content">
-                    <h3>Amazing places</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore quis illo accusantium dignissimos tenetur fugiat rerum modi, earum molestiae excepturi deleniti rem vero dolorum laudantium nam quibusdam sit corporis!</p>
-                    <a href="#" class="btn">See More</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="images/g-4.jpg" alt="">
-                <div class="content">
-                    <h3>Amazing places</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore quis illo accusantium dignissimos tenetur fugiat rerum modi, earum molestiae excepturi deleniti rem vero dolorum laudantium nam quibusdam sit corporis!</p>
-                    <a href="#" class="btn">See More</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="images/g-5.jpg" alt="">
-                <div class="content">
-                    <h3>Amazing places</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore quis illo accusantium dignissimos tenetur fugiat rerum modi, earum molestiae excepturi deleniti rem vero dolorum laudantium nam quibusdam sit corporis!</p>
-                    <a href="#" class="btn">See More</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="images/g-6.jpg" alt="">
-                <div class="content">
-                    <h3>Amazing places</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore quis illo accusantium dignissimos tenetur fugiat rerum modi, earum molestiae excepturi deleniti rem vero dolorum laudantium nam quibusdam sit corporis!</p>
-                    <a href="#" class="btn">See More</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="images/g-7.jpg" alt="">
-                <div class="content">
-                    <h3>Amazing places</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore quis illo accusantium dignissimos tenetur fugiat rerum modi, earum molestiae excepturi deleniti rem vero dolorum laudantium nam quibusdam sit corporis!</p>
-                    <a href="#" class="btn">See More</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="images/g-8.jpg" alt="">
-                <div class="content">
-                    <h3>Amazing places</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore quis illo accusantium dignissimos tenetur fugiat rerum modi, earum molestiae excepturi deleniti rem vero dolorum laudantium nam quibusdam sit corporis!</p>
-                    <a href="#" class="btn">See More</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="images/g-9.jpg" alt="">
-                <div class="content">
-                    <h3>Amazing places</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore quis illo accusantium dignissimos tenetur fugiat rerum modi, earum molestiae excepturi deleniti rem vero dolorum laudantium nam quibusdam sit corporis!</p>
-                    <a href="#" class="btn">See More</a>
-                </div>
-            </div>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/g-1.jpg" alt="" />
+          <div class="content">
+            <h3>Amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium inventore quis illo accusantium dignissimos tenetur
+              fugiat rerum modi, earum molestiae excepturi deleniti rem vero
+              dolorum laudantium nam quibusdam sit corporis!
+            </p>
+            <a href="#" class="btn">See More</a>
+          </div>
         </div>
+
+        <div class="box">
+          <img src="images/g-2.jpg" alt="" />
+          <div class="content">
+            <h3>Amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium inventore quis illo accusantium dignissimos tenetur
+              fugiat rerum modi, earum molestiae excepturi deleniti rem vero
+              dolorum laudantium nam quibusdam sit corporis!
+            </p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-3.jpg" alt="" />
+          <div class="content">
+            <h3>Amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium inventore quis illo accusantium dignissimos tenetur
+              fugiat rerum modi, earum molestiae excepturi deleniti rem vero
+              dolorum laudantium nam quibusdam sit corporis!
+            </p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-4.jpg" alt="" />
+          <div class="content">
+            <h3>Amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium inventore quis illo accusantium dignissimos tenetur
+              fugiat rerum modi, earum molestiae excepturi deleniti rem vero
+              dolorum laudantium nam quibusdam sit corporis!
+            </p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-5.jpg" alt="" />
+          <div class="content">
+            <h3>Amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium inventore quis illo accusantium dignissimos tenetur
+              fugiat rerum modi, earum molestiae excepturi deleniti rem vero
+              dolorum laudantium nam quibusdam sit corporis!
+            </p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-6.jpg" alt="" />
+          <div class="content">
+            <h3>Amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium inventore quis illo accusantium dignissimos tenetur
+              fugiat rerum modi, earum molestiae excepturi deleniti rem vero
+              dolorum laudantium nam quibusdam sit corporis!
+            </p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-7.jpg" alt="" />
+          <div class="content">
+            <h3>Amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium inventore quis illo accusantium dignissimos tenetur
+              fugiat rerum modi, earum molestiae excepturi deleniti rem vero
+              dolorum laudantium nam quibusdam sit corporis!
+            </p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-8.jpg" alt="" />
+          <div class="content">
+            <h3>Amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium inventore quis illo accusantium dignissimos tenetur
+              fugiat rerum modi, earum molestiae excepturi deleniti rem vero
+              dolorum laudantium nam quibusdam sit corporis!
+            </p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/g-9.jpg" alt="" />
+          <div class="content">
+            <h3>Amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium inventore quis illo accusantium dignissimos tenetur
+              fugiat rerum modi, earum molestiae excepturi deleniti rem vero
+              dolorum laudantium nam quibusdam sit corporis!
+            </p>
+            <a href="#" class="btn">See More</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- review section -->
 
     <section class="review" id="review">
-        <h1 class="heading">
-            <span>R</span>
-            <span>e</span>
-            <span>v</span>
-            <span>i</span>
-            <span>e</span>
-            <span>w</span>
-        </h1>
+      <h1 class="heading">
+        <span>R</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+      </h1>
 
-        <div class="swiper review-slider">
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img src="images/pic-1.jfif" alt="">
-                        <h3>John Doe</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img src="images/pic-2.jfif" alt="">
-                        <h3>John Doe</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img src="images/pic-3.jfif" alt="">
-                        <h3>John Doe</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img src="images/pic-4.jfif" alt="">
-                        <h3>John Doe</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic-1.jfif" alt="" />
+              <h3>John Doe</h3>
+              <p>
+                In the heart of Maharashtra, nestled amidst the Sahyadri
+                mountain range, lies the majestic fortress of Raigad. As I
+                wandered through its ancient pathways and towering ramparts, I
+                couldn't help but feel the weight of history bearing down upon
+                me. Raigad, once the capital of the Maratha Empire under the
+                reign of Chhatrapati Shivaji Maharaj, is a treasure trove of
+                stories and legends. Every stone seems to whisper tales of valor
+                and bravery, of battles fought and victories won. The climb to
+                the top of the fort is arduous but rewarding. As I ascended the
+                steep stairs carved into the rugged terrain, I imagined the
+                soldiers who once defended this stronghold with their lives.
+                Each step brought me closer to the summit, where the magnificent
+                ruins of the Raj Bhavan stand tall against the backdrop of the
+                azure sky.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
             </div>
-        </div>
-    </section>
+          </div>
 
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic-2.jfif" alt="" />
+              <h3>John Doe</h3>
+              <p>
+                Built in the 18th century by the Peshwas of the Maratha Empire,
+                Shaniwar Wada was once the seat of power and the residence of
+                the Peshwa rulers. Its imposing walls and intricate architecture
+                are a testament to the craftsmanship of the artisans who labored
+                to bring this magnificent structure to life. As I wandered
+                through the labyrinthine corridors and opulent halls of Shaniwar
+                Wada, I couldn't help but marvel at its sheer beauty. The
+                intricate carvings adorning the walls, the ornate wooden
+                pillars, and the majestic Thorlya Rayancha Diwankhana (the court
+                hall with wooden pillars) all spoke of a bygone era of elegance
+                and sophistication. But amidst the grandeur lies a tale of
+                tragedy. It is said that Shaniwar Wada is haunted by the ghost
+                of Narayanrao Peshwa, the unfortunate heir to the Peshwa throne
+                who met a gruesome end within its walls. Legend has it that his
+                anguished cries still echo through the corridors at night, a
+                chilling reminder of the palace's bloody past.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic-3.jfif" alt="" />
+              <h3>John Doe</h3>
+              <p>
+                In the sacred city of Ayodhya, amidst the whispers of devotees
+                and the fragrance of incense, stands a symbol of enduring faith
+                and cultural resurgence: the Ram Mandir. As I entered its
+                hallowed precincts, I was enveloped by a sense of reverence and
+                tranquility, knowing that I was in the presence of something
+                truly extraordinary. The journey to the construction of the Ram
+                Mandir has been one fraught with controversy and conflict,
+                spanning centuries of religious and political turmoil. Yet,
+                amidst the chaos, one thing remained constant: the unwavering
+                devotion of millions of Hindus to Lord Ram, the Maryada
+                Purushottam, and his rightful abode in Ayodhya. As I gazed upon
+                the towering spires and intricate carvings of the Ram Mandir, I
+                couldn't help but marvel at the sheer magnitude of its beauty.
+                Every stone seemed to whisper tales of devotion and sacrifice,
+                of a people united in their reverence for their beloved deity.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic-4.jfif" alt="" />
+              <h3>John Doe</h3>
+              <p>
+                In the heartland of Maharashtra, concealed within the rugged
+                terrain, lie two of India's most mesmerizing treasures: the
+                Ajanta and Ellora Caves. As I embarked on my journey to uncover
+                the secrets held within these ancient chambers, I knew I was
+                about to embark on a voyage through time. Ajanta Caves, dating
+                back to the 2nd century BCE, are a testament to the artistic
+                brilliance of ancient India. Carved painstakingly into the rock
+                face of a horseshoe-shaped gorge, these caves house some of the
+                finest examples of Buddhist art and architecture in the world.
+                As I wandered through the dimly lit corridors adorned with
+                vibrant frescoes and intricate sculptures, I couldn't help but
+                be awestruck by the sheer beauty and craftsmanship on display.
+                Each cave tells a story, depicting scenes from the life of the
+                Buddha and various Jataka tales with unparalleled grace and
+                elegance. The attention to detail and the mastery of technique
+                exhibited in these ancient artworks are a testament to the skill
+                and dedication of the artisans who created them.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>

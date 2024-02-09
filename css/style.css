@@ -299,6 +299,7 @@ header .search-bar-container label:hover{
     border-radius: .5rem;
     overflow: hidden;
     box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    padding: 2rem;
 }
 
 .packages .box-container .box img{
@@ -331,17 +332,6 @@ header .search-bar-container label:hover{
     color: var(--orange);
 }
 
-.packages .box-container .box .content .price{
-    font-size: 2rem;
-    color: #333;
-    padding-top: 1rem;
-}
-
-.packages .box-container .box .content .price span{
-    color: #666;
-    font-size: 1.5rem;
-    text-decoration: line-through;
-}
 
 .services .box-container{
     display: flex;
@@ -425,6 +415,7 @@ header .search-bar-container label:hover{
     padding: .5rem 0;
 }
 
+
 .review .review-slider{
     padding-bottom: 2rem;
 }
@@ -460,6 +451,9 @@ header .search-bar-container label:hover{
     color: var(--orange);
 }
 
+.swiper-wrapper{
+    height: auto;
+}
 .contact .row{
     display: flex;
     flex-wrap: wrap;
