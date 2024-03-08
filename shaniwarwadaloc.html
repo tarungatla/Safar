@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Location Search</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eae0c8;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    input[type="text"] {
+      width: calc(100% - 100px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button, a#purchaseButton {
+      padding: 10px 20px;
+      background-color: #FF4C29;
+      color: #fff;
+      border: none;
+      border-radius: 25px; /* Make it pill shaped */
+      cursor: pointer;
+      margin-top: 20px;
+      display: inline-block;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow */
+    }
+
+    button:hover, a#purchaseButton:hover {
+      background-color: #FF6347; /* Change color on hover */
+    }
+
+    #dataDisplay {
+      margin-top: 20px;
+    }
+
+    .infoBox {
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #f8de7e;
+      border-radius: 4px;
+    }
+
+    .image-container {
+      text-align: center;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    strong {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Explore The Shaniwar Wada</h1>
+
+    <div id="dataDisplay"></div>
+
+    <!-- Button changed to link with href pointing to another page in the same directory -->
+    <a id="purchaseButton" href="ssale.html" style="display: none;">Purchase Artifacts</a> <!-- Initially hidden -->
+  </div>
+
+  <script>
+    getLocationInfo();
+
+    function getLocationInfo() {
+      const infoContainer = document.getElementById('dataDisplay');
+      infoContainer.innerHTML = ''; // Clear previous content
+
+      fetch('shaniwar.json') 
+        .then(response => response.json())
+        .then(data => {
+          let delay = 0;
+          const startTime = performance.now(); 
+          data.locations.forEach(location => {
+            setTimeout(() => {
+              displayLocation(location);
+            }, delay);
+            delay += 1000; // 5 seconds delay
+          });
+
+          // Check condition after processing all locations
+          setTimeout(() => {
+            if (performance.now() - startTime > 5000) {
+              document.getElementById('purchaseButton').style.display = 'block'; // Display the button
+            }
+          }, delay); // Check after all locations have been processed
+        })
+        .catch(error => console.error('Error fetching locations:', error));
+    }
+
+    function displayLocation(location) {
+      const infoContainer = document.getElementById('dataDisplay');
+      const infoBox = document.createElement('div');
+      infoBox.classList.add('infoBox');
+      infoBox.innerHTML = `
+        <div class="image-container">
+          <img src="${location.images}" alt="${location.name}">
+        </div>
+        <p><strong>ID:</strong> ${location.id}</p>
+        <p><strong>Name:</strong> ${location.name}</p>
+        <p><strong>Description:</strong> ${location.description}</p>
+        <p><strong>Additional Info:</strong> ${location.additional_info}</p>
+        <p><strong>Latitude:</strong> ${location.coordinates.latitude}</p>
+        <p><strong>Longitude:</strong> ${location.coordinates.longitude}</p>
+      `;
+      infoContainer.appendChild(infoBox);
+    }
+
+    // Add event listener to the Purchase Artifacts button
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+{
+    "locations": [
+     
+        {
+            "id": "1",
+            "name": "Shaniwar Wada Complex",
+            "description": "Shaniwar Wada is a fortified palace in Pune with rich history of the Maratha Empire. It hosted the seat of the Peshwas when Maratha rule was at its peak.",
+            "additional_info": "The palace also served as the center of Indian politics until the Marathas lost it to the British. Despite of turned into ruines, Shaniwar Wada is still a prime attraction of Pune for tourists and history lovers .The word Shaniwar Wada is a combination two Marathi words which means Saturday Mansion in English. Shaniwar means Saturday whereas Wada means Mansion. The palace was probably commissioned on a Saturday in 1732. Shaniwar Wada of Pune features the Maratha Imperial architectural style. Carved teak doorways, exquisite design works on teak pillars and marble floors indicates the glory time of the Peshwas. Teaks, limes and stones was sourced from different places. Teaks arrived from Junnar jungles while limes from the Jejuri lime belts. Stones were sourced from the Chinchwad quarries. Scenes from the Ramayana and Mahabharata ornate the walls."
+    ,
+            "images": "images/R.jpg",
+            "coordinates": {
+              "latitude": 18.2317,
+              "longitude": 73.4051
+            }
+          },
+          {
+            "id": "2",
+            "name": "Delhi Darwaza",
+            "description": "The Delhi Darwaza is the main gate of the complex which faces north towards Delhi",
+            "additional_info": "The Delhi Darwaza is the main gate of the complex which faces north towards Delhi. Surprisingly, Shaniwar Wada is the only fort structure in India having its main gate facing Delhi.There is a wonderful history on why does the Delhi Darwaza of Shaniwar Wada is facing north direction towards Delhi.Well the north-facing fort points towards Bajiraos ambitions against the Mughal Empire in Delhi. He possessed a very strong mindset to counter the Mughals. His words on main gate was chhaatiche, maatiche naahi!. The meaning carries a strong inner meaning, the gate should not just built on muds but on the brave chests of the Marathas.",
+            "images": "images/s1.png",
+            "coordinates": {
+              "latitude": 18.2335,
+              "longitude": 73.4054
+            }
+          },
+          {
+            "id": "3",
+            "name": "Mastani Darwaza",
+            "description": "This gate was the entrance leading to Mastani's palace",
+            "additional_info": "The famous love story of Bajirao I and Mastani, daughter of Chhatrasal Bundela and Ruhani Bai Begum has a deep link with the fort palace. Peshwa Bajirao I, the founder of Shaniwar Wada, fell into love with Mastani and committed his second marriage with Mastani.Chhatrasal was a Hindu Rajput ruler and founder of Bundelkhand. Mastani was the daughter of his Muslim concubine Ruhanibai. Therefore, it led a lot of resistance from the Hindu Brahmin Peshwa family to accept Mastani. Forced with the family controversy, Bajirao had to build a separate palace for her inside Pune Shaniwar Wada, known as Mastani Mahal.However, Mastani Mahal had a completely isolated entry gate which is now famous as Mastani Darwaza facing north This gate was the entrance leading to Mastani's palace and was used by her while travelling out of the palace's perimeter wall.",
+            "images": "images/s2.png",
+            "coordinates": {
+              "latitude": 18.2351,
+              "longitude": 73.4044
+            }
+          },
+          {
+            "id": "4",
+            "name": "Ganesh Darwaza",
+            "description": "Facing south-east Named for the Ganesh Rang Mahal",
+            "additional_info": "facing southeast Named for the Ganesh Rang Mahal, which used to stand near this door. It was used by ladies at the fort to visit the nearby Kasba Ganapati temple.Ganesh Darwaja also served as one of the main entrances to Shaniwar Wada. It was named after Lord Ganesh, the Hindu deity known as the remover of obstacles and the god of beginnings. It is believed that by entering through this gate, visitors sought the blessings of Lord Ganesh for a successful visit or endeavour.",
+            "images": "images/s3.png",
+            "coordinates": {
+              "latitude": 18.2304,
+              "longitude": 73.4062
+            }
+          },
+          {
+            "id": "5",
+            "name": "The Palace",
+            "description": "The Shaniwar Wada was not just a residence building for the Peshwa. It was a hostage for many people, horses, and War elephants. Even to date, there are remains of the stables for horses and elephants.  It also hosted the offices of the Chhatrapati of the Maratha Kingdom.",
+            "additional_info": "The important buildings in the palace include the Thorlya Rayancha Diwankhana (Marathi: the court hall of Baji Rao I), Naachacha Diwankhana (Dance Hall), and Arsa Mahal (Mirror Hall).Since the buildings were destroyed in the fire of 1828, only descriptions of the living areas of the fort are available. All the state halls in the buildings are said to have doorways with exquisitely carved teak arches, with ornamental teardrop teak pillars shaped like Suru  trunks supporting the ceilings, which were covered with beautiful teak tracery, carved creepers and flowers. Exquisite glass chandeliers hung from the ceilings. The floors were made of highly polished marble, arranged in a mosaic pattern and adorned with rich Persian rugs. The walls contained paintings with scenes from the Hindu epics, the Ramayana and the Mahabharata.The buildings are said to have been designed and constructed by well-known artisans, including Shivaram Krishna, Devaji Sutar, Kondaji Sutar, Morarji Patharwat Bhojraja (an inlay-work expert from Jaipur) and Ragho (a painter).It is said that the Shaniwarwada complex was seven storeys high. On the top floor was the residence of the Peshwa which was called Meghadambari. It is said that the spire of Jñāneśvar temple at Alandi, 17 km away, could be seen from there.",
+            "images": "images/spalace.png",
+            "coordinates": {
+              "latitude": 18.2367,
+              "longitude": 73.4023
+            }
+          },
+    
+          {
+            "id": "6",
+            "name": "The Fountain",
+            "description": "The complex had an impressive lotus-shaped fountain",
+            "additional_info": "the Hazari Karanje Fountain of a thousand jets It was constructed for the pleasure of the infant Peshwa Sawai Madhavrao. It was designed as a sixteen petal lotus; each petal had sixteen jets with an eighty-foot arch. It was the most complicated and intricate fountain of its time.Shrimant Anandrao Rudrajirao Dhulap-More who visited the Shaniwarwada in 1791 described it as very magnificent. A hundred dancers can dance here at a time. In one corner is a marble Ganapati statue and the palace is flanked by a fountain and a flower garden.",
+            "images": "images/fountaion.png",
+            "coordinates": {
+              "latitude": 18.2339,
+              "longitude": 73.4036
+            }
+          }
+  ]
+}

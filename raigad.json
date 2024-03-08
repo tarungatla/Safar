@@ -1,0 +1,82 @@
+{
+    "location": [
+        {
+            "id": "1",
+            "name": "Rajyabhishek Mandap",
+            "images": "images/raj.png",
+            "description": "The coronation hall where Shivaji Maharaj was crowned as the king of Maratha kingdom.",
+            "additional_info": "The Rajyabhishek Mandap is located near the Balekilla area of Raigad Fort. It is a significant historical site where Shivaji Maharaj's coronation ceremony took place on June 6, 1674. Raigad Fort, located in the Raigad district of Maharashtra, India, was the capital of the Maratha Empire under the rule of Chhatrapati Shivaji Maharaj. The fort is known for its strategic location, impressive architecture, and historical importance. It played a crucial role in the Maratha Empire's history, particularly during the coronation ceremony of Chhatrapati Shivaji Maharaj in 1674, which took place at the fort.  The coronation ceremony, known as Rajyabhishek marked Shivaji Maharaj's formal ascent to the throne. While there might be structures associated with the coronation, such as a ceremonial mandap (pavilion) or related structures, I don't have specific details about a Rajyabhishek Mandap at Raigad Fort.",
+            "coordinates": {
+                "latitude": 18.2367,
+                "longitude": 73.4023
+            }
+        },
+        {
+            "id": "2",
+            "name": "Maha Darwaja",
+            "images": "images/maha.png",
+            "description": "The main entrance to the fort, strategically designed to confuse the enemy.",
+            "additional_info": "The Maha Darwaja, also known as the 'Royal Door,' is an imposing structure with large bastions on either side. It was built to withstand enemy attacks and is one of the most iconic features of Raigad Fort. The Maha Darwaja, also known as the Main Gate, is the primary entrance to the Raigad Fort, a historic hill fortress located in the Raigad district of Maharashtra, India. Raigad Fort was the capital of the Maratha Empire and served as the seat of Chhatrapati Shivaji Maharaj, the founder of the Maratha Empire. The Maha Darwaja is a prominent and strategically important gate of the fort. It is an imposing structure with massive stone walls and a large wooden door. The design of the Maha Darwaja is such that it provided a strong defense against potential invaders. The gate is flanked by two towers, each featuring intricately carved sculptures and motifs.One of the notable features of the Maha Darwaja is the Nagarkhana, a chamber near the entrance where musicians would play ceremonial music to announce the arrival of important dignitaries or the ruler. The architecture of the Maha Darwaja reflects the military prowess and strategic vision of Chhatrapati Shivaji Maharaj.Visitors to Raigad Fort often pass through the Maha Darwaja to explore the historical significance and architectural marvels of the fort, including the main palace, market area, and other structures within its walls. The fort offers panoramic views of the surrounding landscape, making it a popular destination for history enthusiasts and tourists alike.",
+            "coordinates": {
+                "latitude": 18.2317,
+                "longitude": 73.4051
+            }
+        },
+        {
+            "id": "3",
+            "name": "Mena Darwaja",
+            "images": "images/mena.png",
+            "description": "An emergency exit from the fort used during attacks.",
+            "additional_info": "The Mena Darwaja served as a secret escape route for the royal family during times of danger. It is a narrow passage carved into the rock, providing a discreet way out of the fort. The lower entrance gate of Raigad Fort that leads to a bastion with a steep drop and a view of the valley is called Mena Darwaja or Zunjar Machi. It is located on the southern side of Raigad Fort and was used by the royal ladies and their attendants. The bastion has a small temple and a water tank. The view from the bastion is breathtaking and one can see the Konkan region and the Arabian Sea from here. If you go to the fort by ropeway, the door that is opened after climbing a few steps from there is called Mena Darwaza. If you go straight through this door, you will find a Palkhi Darwaza. Both the doors are in a straight line.",
+            "coordinates": {
+                "latitude": 18.2335,
+                "longitude": 73.4054
+            }
+        },
+        {
+            "id": "4",
+            "name": "Hirkani Buruj",
+            "images": "images/hir.png",
+            "description": "A watchtower named after a woman named Hirkani who climbed it to reach her child during a night attack.",
+            "additional_info": "  Hirkani Buruj is located on the eastern side of Raigad Fort. Hirkani Buruj is a famous watchtower named after Hirkani, a brave woman who climbed the steep steps of the tower to reach her infant son before the gates were closed for the night.Hirkani Buruj is named after a woman named Hirkani, who was a local resident of the nearby village Pachad. According to legend, during the reign of Chhatrapati Shivaji Maharaj, the fort gates were closed in the evening, and anyone caught inside the fort after that time was not allowed to leave until the gates were opened the next morning.Hirkani Buruj is a watchtower that stands as a testament to the bravery of Hirkani. While the fort itself has several structures and fortifications, the tower is a notable part of the historical landscape. ",
+            "coordinates": {
+                "latitude": 18.2351,
+                "longitude": 73.4044
+            }
+        },
+        {
+            "id": "5",
+            "name": "Takmak Tok",
+            "images": "images/tak.png",
+            "description": "A cliff-edge point where punishment was given to criminals by pushing them off.",
+            "additional_info": "Takmak Tok is a terrifying cliff-edge point where punishments were administered to criminals.Takmak Tok is situated on the Raigad Fort and offers a breathtaking view of the surrounding landscape. It is strategically located on the edge of the fort, providing a steep drop. It offers breathtaking views of the surrounding landscape but was also a place of fear for wrongdoers. akmak Tok was a site used for executing prisoners during the reign of Chhatrapati Shivaji Maharaj. It served as a location for carrying out death penalties. Takmak Tok is a narrow platform situated on the edge of a cliff. It does not have any protective railings, and the platform overlooks a steep drop.Takmak Tok symbolizes the strict and just rule of Chhatrapati Shivaji Maharaj. It was used as a tool to maintain discipline and order within the Maratha Empire.",
+            "coordinates": {
+                "latitude": 18.2304,
+                "longitude": 73.4062
+            }
+        },
+        {
+            "id": "6",
+            "name": "Jagdishwar Temple",
+            "images": "images/jag.png",
+            "description": "An ancient temple dedicated to Lord Shiva.",
+            "additional_info": "The Jagdishwar Temple is an ancient Hindu temple located within Raigad Fort. It is dedicated to Lord Shiva and features intricate carvings and sculptures. The Jagdishwar Temple is located within the premises of Raigad Fort.The temple is constructed in the typical Maratha style of architecture. The Maratha architecture is characterized by the use of stones and intricately carved designs.The temple holds historical and religious significance as it was built during the Maratha period when Raigad Fort was the capital. It reflects the religious tolerance and inclusivity promoted by Chhatrapati Shivaji Maharaj.The fort is accessible by road, and visitors usually have to climb a series of steps to reach the summit where the temple and other structures are located.",
+            "coordinates": {
+                "latitude": 18.2339,
+                "longitude": 73.4036
+            }
+        },
+        {
+            "id": "7",
+            "name": "Takmak Tok Viewpoint",
+            "images": "images/vie.png",
+            "description": "A scenic viewpoint offering panoramic views of the Sahyadri mountain range.",
+            "additional_info": "The Takmak Tok Viewpoint is a popular spot for tourists to admire the beauty of the Sahyadri mountain range. It provides stunning panoramic views and is a great place for photography.",
+            "coordinates": {
+                "latitude": 18.2301,
+                "longitude": 73.4065
+            }
+        }
+    ]
+  }
+  

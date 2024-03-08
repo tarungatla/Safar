@@ -28,6 +28,7 @@
         <a href="#review">Review</a>
         <a href="#contact">Contact</a>
         <a href="">About</a>
+
       </nav>
 
       <div class="icons">
@@ -39,6 +40,49 @@
         <input type="search" id="search-bar" placeholder="search here..." />
         <label for="search-bar" class="fas fa-search"></label>
       </form>
+      <script>
+        // print local storage data
+        console.log(localStorage.getItem("username"));
+        // check if the user is logged in
+        if (localStorage.getItem("username")) {
+          console.log("User is logged in");
+          // if the user is logged in then add a logout link to the navbar
+          const navbar = document.querySelector(".navbar");
+          const logoutLink = document.createElement("a");
+          logoutLink.textContent = "Logout";
+          logoutLink.href = "#";
+          logoutLink.addEventListener("click", function () {
+            // remove the username from local storage
+            localStorage.removeItem("username");
+            // redirect to another login page
+            window.location.href = "login.html";
+          });
+          navbar.appendChild(logoutLink);
+
+        } else {
+          // Redirect to another login page
+          window.location.href = "login.html";
+        } 
+        const searchInput = document.getElementById("search-bar");
+        const searchButton = document.querySelector(".search-bar-container label");
+
+        searchButton.addEventListener("click", function (event) {
+          event.preventDefault();
+          let searchValue = searchInput.value;
+          searchValue = searchValue.toLowerCase();
+          if(searchValue==="raigad"){
+            window.location.href = "raigadloc.html";
+          }
+          else if(searchValue==="shaniwar wada"||searchValue==="shandiwarwada"){
+            window.location.href = "shaniwarwadaloc.html";
+          }
+          else{
+            // Redirect to another HTML page with the search value as a query parameter
+            window.location.href = "location.html?search=" + encodeURIComponent(searchValue);
+          }
+          
+        });
+      </script>
     </header>
 
     <div class="login-form-container">
