@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8aa0234b5596b4258bc33ead84612081 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8aa0234b5596b4258bc33ead84612081" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8aa0234b5596b4258bc33ead84612081 = L.map(
+                "map_8aa0234b5596b4258bc33ead84612081",
+                {
+                    center: [18.5196, 73.8553],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2457b0db0c2c0e1602f2c3fbd1cfc298 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2457b0db0c2c0e1602f2c3fbd1cfc298.addTo(map_8aa0234b5596b4258bc33ead84612081);
+        
+    
+            var marker_400b71cae01015d634551a0c2a15fe59 = L.marker(
+                [18.5196, 73.8553],
+                {}
+            ).addTo(map_8aa0234b5596b4258bc33ead84612081);
+        
+    
+            var icon_16c1f1f9ca5a665df93679b3a0ecae86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "iconSize": [30, 30], "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_400b71cae01015d634551a0c2a15fe59.setIcon(icon_16c1f1f9ca5a665df93679b3a0ecae86);
+        
+    
+        var popup_afccb30ced2a46493dc45c25a175d921 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d281f54ec536cae7da0bc01dc5df7b35 = $(`<div id="html_d281f54ec536cae7da0bc01dc5df7b35" style="width: 100.0%; height: 100.0%;">Shanivar Wada</div>`)[0];
+                popup_afccb30ced2a46493dc45c25a175d921.setContent(html_d281f54ec536cae7da0bc01dc5df7b35);
+            
+        
+
+        marker_400b71cae01015d634551a0c2a15fe59.bindPopup(popup_afccb30ced2a46493dc45c25a175d921)
+        ;
+
+        
+    
+    
+            var marker_09c2c4c8de137853ce171ed3e0cd08ef = L.marker(
+                [18.5187, 73.8565],
+                {}
+            ).addTo(map_8aa0234b5596b4258bc33ead84612081);
+        
+    
+            var icon_ad2e9311d03bb109fbe69f9aa8082f3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "iconSize": [25, 25], "markerColor": "blue", "prefix": "custom"}
+            );
+            marker_09c2c4c8de137853ce171ed3e0cd08ef.setIcon(icon_ad2e9311d03bb109fbe69f9aa8082f3a);
+        
+    
+        var popup_f978cc122f48e9b801d7d14c68ae8a7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fd9c1d728b379a929deebf853ac4808 = $(`<div id="html_9fd9c1d728b379a929deebf853ac4808" style="width: 100.0%; height: 100.0%;">Lal Mahal</div>`)[0];
+                popup_f978cc122f48e9b801d7d14c68ae8a7b.setContent(html_9fd9c1d728b379a929deebf853ac4808);
+            
+        
+
+        marker_09c2c4c8de137853ce171ed3e0cd08ef.bindPopup(popup_f978cc122f48e9b801d7d14c68ae8a7b)
+        ;
+
+        
+    
+    
+            var marker_f61ef3b7a5f695a819be7bf5cfd37719 = L.marker(
+                [18.519, 73.8573],
+                {}
+            ).addTo(map_8aa0234b5596b4258bc33ead84612081);
+        
+    
+            var icon_d53955d262b6df9c528fba7e3a5094c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "iconSize": [25, 25], "markerColor": "blue", "prefix": "custom"}
+            );
+            marker_f61ef3b7a5f695a819be7bf5cfd37719.setIcon(icon_d53955d262b6df9c528fba7e3a5094c0);
+        
+    
+        var popup_57ad74f0fa5350389b880311587ba841 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d1049d0812bf3b62bce981e351faa0b = $(`<div id="html_9d1049d0812bf3b62bce981e351faa0b" style="width: 100.0%; height: 100.0%;">Kasba Ganpati</div>`)[0];
+                popup_57ad74f0fa5350389b880311587ba841.setContent(html_9d1049d0812bf3b62bce981e351faa0b);
+            
+        
+
+        marker_f61ef3b7a5f695a819be7bf5cfd37719.bindPopup(popup_57ad74f0fa5350389b880311587ba841)
+        ;
+
+        
+    
+</script>
+</html>
