@@ -62,3 +62,7 @@ var swiper = new Swiper(".review-slider", {
         },
     },
 });
+
+
+let blogs = JSON.parse(localStorage.getItem('blogs'));
+console.log(blogs);

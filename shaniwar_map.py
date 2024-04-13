@@ -23,10 +23,10 @@ folium.Marker(
 
 folium.Marker(
     location=location3,
-    popup='Kasba Ganpati',
+    popup='https://g.co/kgs/ZcpwtBB',
     icon=folium.Icon(color='blue', icon='info-sign', prefix='custom',icon_size=(25, 25))
 ).add_to(map_shanivar_wada)
 
 # Display the map
 map_shanivar_wada
-map_shanivar_wada.save('shanivar_wada_map.html')
+map_shanivar_wada.save('try.html')
